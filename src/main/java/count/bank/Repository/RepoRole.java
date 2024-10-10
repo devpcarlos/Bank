@@ -1,0 +1,12 @@
+package count.bank.Repository;
+
+import count.bank.Entity.Roles;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import java.util.Optional;
+
+@Repository
+public interface RepoRole extends JpaRepository<Roles, Long> {
+
+}
